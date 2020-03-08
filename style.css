@@ -1,0 +1,18 @@
+
+h1,h2,h3{
+    text-transform: uppercase;
+}
+aside{
+    background-color: orange;
+}
+.titre_gauche{
+    text-align: center;
+    background-color: black;
+    color: orange;
+}
+hr{
+    background-color: orange;
+}
+section{
+    padding: 5% 0;
+}
