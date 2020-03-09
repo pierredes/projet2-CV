@@ -9,6 +9,7 @@ aside{
     text-align: center;
     background-color: black;
     color: orange;
+    margin-bottom: 5%;
 }
 hr{
     background-color: orange;
@@ -25,4 +26,10 @@ section{
 #photo img{
     width: 40%;
     border-radius: 50%;
+}
+
+/* Section contact */
+
+.texte_gras{
+    font-weight: bold; 
 }
