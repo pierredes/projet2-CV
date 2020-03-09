@@ -16,3 +16,13 @@ hr{
 section{
     padding: 5% 0;
 }
+
+/* Section photo */
+
+#photo{
+    text-align: center;
+}
+#photo img{
+    width: 40%;
+    border-radius: 50%;
+}
