@@ -4,6 +4,7 @@ h1,h2,h3{
 }
 aside{
     background-color: orange;
+    height: 100%;
 }
 .titre_gauche{
     text-align: center;
@@ -32,4 +33,10 @@ section{
 
 .texte_gras{
     font-weight: bold; 
+}
+
+/* Section à propos */
+
+#apropos{
+    padding-bottom : 65%;
 }
