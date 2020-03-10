@@ -40,3 +40,12 @@ section{
 #apropos{
     padding-bottom : 65%;
 }
+
+/* Section loisirs */
+#loisir{
+    text-align: center;
+}
+.fas{
+    padding: 5% 10%;
+    height: 100px;
+}
