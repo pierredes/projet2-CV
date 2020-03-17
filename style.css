@@ -1,4 +1,10 @@
-
+/* Général */
+body{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
 h1,h2,h3{
     text-transform: uppercase;
 }
@@ -17,6 +23,11 @@ hr{
 }
 section{
     padding: 5% 0;
+}
+.point_moment{
+    color: orange;
+    height: 5%;
+    width: 20px;
 }
 
 /* Section photo */
@@ -38,7 +49,7 @@ section{
 /* Section à propos */
 
 #apropos{
-    padding-bottom : 65%;
+    padding-bottom : 200%;
 }
 
 /* Section loisirs */
@@ -48,4 +59,13 @@ section{
 .fas{
     padding: 5% 10%;
     height: 100px;
+}
+
+/* Section titre */
+
+#prenom{
+    color: orange;
+}
+#souligner{
+    text-decoration: underline orange;
 }
