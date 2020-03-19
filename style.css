@@ -1,6 +1,6 @@
 /* Général */
 body{
-    width: 60%;
+    /* width: 60%; */
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
@@ -8,9 +8,9 @@ body{
 h1,h2,h3{
     text-transform: uppercase;
 }
-aside{
+#partie_gauche{
     background-color: orange;
-    height: 100%;
+    width: 30%;
 }
 .titre_gauche{
     text-align: center;
@@ -28,6 +28,10 @@ section{
     color: orange;
     height: 5%;
     width: 20px;
+}
+.icone_droite{
+    color : orange;
+    padding: 0 5%;
 }
 
 /* Section photo */
@@ -56,9 +60,8 @@ section{
 #loisir{
     text-align: center;
 }
-.fas{
-    padding: 5% 10%;
-    height: 100px;
+.icone_loisir{
+    padding: 0 10% 5% 10%;
 }
 
 /* Section titre */
