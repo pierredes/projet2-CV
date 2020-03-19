@@ -1,74 +1,80 @@
 /* Général */
-body{
-    /* width: 60%; */
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
-}
-h1,h2,h3{
-    text-transform: uppercase;
-}
-#partie_gauche{
-    background-color: orange;
-    width: 30%;
-}
-.titre_gauche{
-    text-align: center;
-    background-color: black;
-    color: orange;
-    margin-bottom: 5%;
-}
-hr{
-    background-color: orange;
-}
-section{
-    padding: 5% 0;
-}
-.point_moment{
-    color: orange;
-    height: 5%;
-    width: 20px;
-}
-.icone_droite{
-    color : orange;
-    padding: 0 5%;
-}
+@media (min-width:1281px){
 
-/* Section photo */
+    body{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        font-family: 'Verdana', sans-serif;
+    }
+    h1,h2,h3,h4,h5{
+        text-transform: uppercase;
+        font-weight: 600; 
+    }
+    #partie_gauche{
+        background-color: #FFC107;
+        width: 30%;
+    }
+    .titre_gauche{
+        text-align: center;
+        background-color: black;
+        color: #FFC107;
+        margin-bottom: 5%;
+    }
+    hr{
+        background-color: #FFC107;
+    }
+    section{
+        padding: 5% 0;
+    }
+    .icone_droite{
+        color : #FFC107;
+        padding: 0 5%;
+    }
+    .formationposte{
+        font-weight: 600;
+        font-style: italic;
+    }
+    .contenu_droite{
+        padding: 5% 0;
+    }
+    /* Section photo */
 
-#photo{
-    text-align: center;
-}
-#photo img{
-    width: 40%;
-    border-radius: 50%;
-}
+    #photo{
+        text-align: center;
+    }
+    #photo img{
+        width: 40%;
+        border-radius: 50%;
+    }
 
-/* Section contact */
+    /* Section contact */
 
-.texte_gras{
-    font-weight: bold; 
-}
+    .texte_gras{
+        font-weight: bold; 
+    }
 
-/* Section à propos */
+    /* Section à propos */
 
-#apropos{
-    padding-bottom : 200%;
-}
+    #apropos{
+        padding-bottom : 200%;
+    }
 
-/* Section loisirs */
-#loisir{
-    text-align: center;
-}
-.icone_loisir{
-    padding: 0 10% 5% 10%;
-}
+    /* Section loisirs */
+    #loisir{
+        text-align: center;
+    }
+    .icone_loisir{
+        padding: 5% 10% 5% 10%;
+    }
 
-/* Section titre */
+    /* Section titre */
 
-#prenom{
-    color: orange;
-}
-#souligner{
-    text-decoration: underline orange;
+    #prenom{
+        color: #FFC107;
+    }
+    #souligner{
+        text-decoration: underline #FFC107;
+    }
 }
