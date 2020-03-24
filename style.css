@@ -1,12 +1,14 @@
 /* Général */
-@media (min-width:1281px){
+@media (min-width:1200px){
 
     body{
+        font-family: 'Verdana', sans-serif;
+    }
+    #global{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         border: 1px solid black;
-        font-family: 'Verdana', sans-serif;
     }
     h1,h2,h3,h4,h5{
         text-transform: uppercase;
@@ -15,6 +17,157 @@
     #partie_gauche{
         background-color: #FFC107;
         width: 30%;
+    }
+    .titre_gauche{
+        text-align: center;
+        background-color: black;
+        color: #FFC107;
+        margin-bottom: 5%;
+    }
+    hr{
+        background-color: #FFC107;
+    }
+    section{
+        padding: 5% 0;
+    }
+    .icone_droite{
+        color : #FFC107;
+        padding: 0 5%;
+    }
+    .formationposte{
+        font-weight: 600;
+        font-style: italic;
+    }
+    .contenu_droite{
+        padding: 5% 0;
+    }
+    /* Section photo */
+
+    #photo{
+        text-align: center;
+    }
+    #photo img{
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    /* Section contact */
+
+    .texte_gras{
+        font-weight: bold; 
+    }
+
+    /* Section à propos */
+
+    #apropos{
+        padding-bottom : 200%;
+    }
+
+    /* Section loisirs */
+    #loisir{
+        text-align: center;
+    }
+    .icone_loisir{
+        padding: 5% 10% 5% 10%;
+    }
+
+    /* Section titre */
+
+    #prenom{
+        color: #FFC107;
+    }
+    #souligner{
+        text-decoration: underline #FFC107;
+    }
+}
+
+@media (min-width: 992px){
+    body{
+        font-family: 'Verdana', sans-serif;
+    }
+    h1,h2,h3,h4,h5{
+        text-transform: uppercase;
+        font-weight: 600; 
+    }
+    #partie_gauche{
+        background-color: #FFC107;
+        /* width: 30%; */
+    }
+    .titre_gauche{
+        text-align: center;
+        background-color: black;
+        color: #FFC107;
+        margin-bottom: 5%;
+    }
+    hr{
+        background-color: #FFC107;
+    }
+    section{
+        padding: 5% 0;
+    }
+    .icone_droite{
+        color : #FFC107;
+        padding: 0 5%;
+    }
+    .formationposte{
+        font-weight: 600;
+        font-style: italic;
+    }
+    .contenu_droite{
+        padding: 5% 5%;
+    }
+    /* Section photo */
+
+    #photo{
+        text-align: center;
+    }
+    #photo img{
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    /* Section contact */
+
+    .texte_gras{
+        font-weight: bold; 
+    }
+
+    /* Section à propos */
+
+    #apropos{
+        padding-bottom : 200%;
+    }
+
+    /* Section loisirs */
+    #loisir{
+        text-align: center;
+    }
+    .icone_loisir{
+        padding: 5% 10% 5% 10%;
+    }
+
+    /* Section titre */
+
+    #prenom{
+        color: #FFC107;
+    }
+    #souligner{
+        text-decoration: underline #FFC107;
+    }
+}
+
+@media (min-width: 768px){
+    body{
+        font-family: 'Verdana', sans-serif;
+        margin: 0;
+    }
+    h1,h2,h3,h4,h5{
+        text-transform: uppercase;
+        font-weight: 600; 
+    }
+    #partie_gauche{
+        background-color: #FFC107;
+        /* width: 30%; */
     }
     .titre_gauche{
         text-align: center;
