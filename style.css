@@ -81,7 +81,7 @@
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) and (max-width: 1199px){
     body{
         font-family: 'Verdana', sans-serif;
     }
@@ -156,7 +156,7 @@
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 991px){
     body{
         font-family: 'Verdana', sans-serif;
         margin: 0;
@@ -167,6 +167,7 @@
     }
     #partie_gauche{
         background-color: #FFC107;
+        margin: 0;
         /* width: 30%; */
     }
     .titre_gauche{
@@ -229,5 +230,52 @@
     }
     #souligner{
         text-decoration: underline #FFC107;
+    }
+}
+
+@media (max-width: 479px){
+    body{
+        font-family: 'Verdana', sans-serif;
+        margin : 0;
+        padding : 0;
+    }
+    .container-fluid{
+        display: block;
+        /* justify-content: center; */
+    }
+    #photo{
+        text-align:center;
+        order: 1;
+    }
+    #photo img{
+        width: 40%;
+        border-radius: 50%;
+        position: relative;
+    }
+    section{
+        padding: 5% 0;
+        display: flex;
+        flex-flow: column;
+    }
+    #apropos{
+        order: 3;
+    }
+    #contact{
+        order:8;
+    }
+    #loisir{
+        order:7;
+    }
+    #titre_statut{
+        order: 2;
+    }
+    #formation{
+        order:  4;
+    }
+    #exp_pro{
+        order: 5;
+    }
+    #autre{
+        order: 6;
     }
 }
