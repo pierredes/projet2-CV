@@ -160,6 +160,11 @@
     body{
         font-family: 'Verdana', sans-serif;
         margin: 0;
+        padding: 0;
+    }
+    .container-fluid{
+        margin: 0;
+        padding: 0;
     }
     h1,h2,h3,h4,h5{
         text-transform: uppercase;
@@ -231,51 +236,70 @@
     #souligner{
         text-decoration: underline #FFC107;
     }
+    #autres1{
+        padding-right: 50%;
+    }
+    #autres2{
+        padding-right: 30%;
+    }
+    #autres3{
+        padding-left: 20%;
+    }
 }
 
-@media (max-width: 479px){
+@media (max-width: 767px){
+    html{
+        width: 100%;
+    }
     body{
         font-family: 'Verdana', sans-serif;
         margin : 0;
         padding : 0;
+        background-color :aqua;
     }
     .container-fluid{
+        width: 100%;
+        padding: 0;
         display: block;
-        /* justify-content: center; */
+        justify-content: center;
+        margin: 0;
+        
+    }
+    h1,h2,h3,h4,h5{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600; 
     }
     #photo{
-        text-align:center;
+        /* text-align:center; */
         order: 1;
     }
     #photo img{
         width: 40%;
         border-radius: 50%;
-        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
     section{
         padding: 5% 0;
         display: flex;
         flex-flow: column;
     }
-    #apropos{
-        order: 3;
-    }
-    #contact{
-        order:8;
-    }
     #loisir{
-        order:7;
+        text-align: center;
     }
-    #titre_statut{
-        order: 2;
+    #foot{
+        padding: 5% 5%;
     }
-    #formation{
-        order:  4;
+    #livre{
+        padding: 5% 5%;
     }
-    #exp_pro{
-        order: 5;
+    #jeux{
+        padding: 5% 5%;
     }
-    #autre{
-        order: 6;
+    .formationposte{
+        font-weight: 600;
+        font-style: italic;
     }
 }
