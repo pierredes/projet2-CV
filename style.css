@@ -1,304 +1,360 @@
 /* Général */
-@media (min-width:1200px){
+@media (min-width:1200px) {
 
-    body{
+    body {
         font-family: 'Verdana', sans-serif;
     }
-    #global{
-        width: 90%;
+
+    #global {
         margin-left: auto;
         margin-right: auto;
-        border: 1px solid black;
+        border: 1px solid #000;
     }
-    h1,h2,h3,h4,h5{
+
+    h1,h2,h3,h4,h5 {
         text-transform: uppercase;
         font-weight: 600; 
     }
-    #partie_gauche{
+
+    #partie_gauche {
         background-color: #FFC107;
         width: 30%;
     }
-    .titre_gauche{
+
+    .titre_gauche {
         text-align: center;
-        background-color: black;
+        background-color: #000;
         color: #FFC107;
         margin-bottom: 5%;
     }
-    hr{
+
+    hr {
         background-color: #FFC107;
     }
-    section{
+
+    section {
         padding: 5% 0;
     }
-    .icone_droite{
+
+    header {
+        padding: 5% 0;
+    }
+
+    .icone_droite {
         color : #FFC107;
         padding: 0 5%;
     }
-    .formationposte{
+
+    .formationposte {
         font-weight: 600;
         font-style: italic;
     }
-    .contenu_droite{
+
+    .contenu_droite {
         padding: 5% 0;
     }
+
     /* Section photo */
 
-    #photo{
+    #photo {
         text-align: center;
     }
-    #photo img{
+
+    #photo img {
         width: 40%;
         border-radius: 50%;
     }
 
     /* Section contact */
 
-    .texte_gras{
+    .texte_gras {
         font-weight: bold; 
     }
 
     /* Section à propos */
 
-    #apropos{
+    #apropos {
         padding-bottom : 200%;
     }
 
     /* Section loisirs */
-    #loisir{
+    #loisir {
         text-align: center;
     }
-    .icone_loisir{
+
+    .icone_loisir {
         padding: 5% 10% 5% 10%;
     }
 
     /* Section titre */
 
-    #prenom{
+    #prenom {
         color: #FFC107;
     }
-    #souligner{
+
+    #souligner {
         text-decoration: underline #FFC107;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px){
-    body{
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    body {
         font-family: 'Verdana', sans-serif;
     }
-    h1,h2,h3,h4,h5{
+
+    h1,h2,h3,h4,h5 {
         text-transform: uppercase;
         font-weight: 600; 
     }
-    #partie_gauche{
+
+    #partie_gauche {
         background-color: #FFC107;
-        /* width: 30%; */
     }
-    .titre_gauche{
+
+    .titre_gauche {
         text-align: center;
-        background-color: black;
+        background-color: #000;
         color: #FFC107;
         margin-bottom: 5%;
     }
-    hr{
+
+    hr {
         background-color: #FFC107;
     }
-    section{
+
+    section {
         padding: 5% 0;
     }
-    .icone_droite{
+
+    header {
+        padding: 5% 0;
+    }
+
+    .icone_droite {
         color : #FFC107;
         padding: 0 5%;
     }
-    .formationposte{
+
+    .formationposte {
         font-weight: 600;
         font-style: italic;
     }
-    .contenu_droite{
+
+    .contenu_droite {
         padding: 5% 5%;
     }
+
     /* Section photo */
 
-    #photo{
+    #photo {
         text-align: center;
     }
-    #photo img{
+
+    #photo img {
         width: 40%;
         border-radius: 50%;
     }
 
     /* Section contact */
 
-    .texte_gras{
+    .texte_gras {
         font-weight: bold; 
     }
 
     /* Section à propos */
 
-    #apropos{
+    #apropos {
         padding-bottom : 200%;
     }
 
     /* Section loisirs */
-    #loisir{
+    
+    #loisir {
         text-align: center;
     }
-    .icone_loisir{
+
+    .icone_loisir {
         padding: 5% 10% 5% 10%;
     }
 
     /* Section titre */
 
-    #prenom{
+    #prenom {
         color: #FFC107;
     }
-    #souligner{
+
+    #souligner {
         text-decoration: underline #FFC107;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
-    body{
+@media (min-width: 768px) and (max-width: 991px) {
+
+    body {
         font-family: 'Verdana', sans-serif;
         margin: 0;
         padding: 0;
     }
-    .container-fluid{
+
+    .container {
         margin: 0;
         padding: 0;
     }
-    h1,h2,h3,h4,h5{
+
+    h1,h2,h3,h4,h5 {
         text-transform: uppercase;
         font-weight: 600; 
     }
-    #partie_gauche{
+
+    #partie_gauche {
         background-color: #FFC107;
         margin: 0;
-        /* width: 30%; */
     }
-    .titre_gauche{
+
+    .titre_gauche {
         text-align: center;
-        background-color: black;
+        background-color: #000;
         color: #FFC107;
         margin-bottom: 5%;
     }
-    hr{
+
+    hr {
         background-color: #FFC107;
     }
-    section{
+
+    section {
         padding: 5% 0;
     }
-    .icone_droite{
+
+    .icone_droite {
         color : #FFC107;
         padding: 0 5%;
     }
-    .formationposte{
+
+    .formationposte {
         font-weight: 600;
         font-style: italic;
     }
-    .contenu_droite{
+
+    .contenu_droite {
         padding: 5% 0;
     }
+
     /* Section photo */
 
-    #photo{
+    #photo {
         text-align: center;
     }
-    #photo img{
+
+    #photo img {
         width: 40%;
         border-radius: 50%;
     }
 
     /* Section contact */
 
-    .texte_gras{
+    .texte_gras {
         font-weight: bold; 
     }
 
     /* Section à propos */
 
-    #apropos{
+    #apropos {
         padding-bottom : 200%;
     }
 
     /* Section loisirs */
-    #loisir{
+    
+    #loisir {
         text-align: center;
     }
-    .icone_loisir{
+
+    .icone_loisir {
         padding: 5% 10% 5% 10%;
     }
 
     /* Section titre */
 
-    #prenom{
+    #prenom {
         color: #FFC107;
     }
-    #souligner{
+
+    #souligner {
         text-decoration: underline #FFC107;
     }
-    #autres1{
+
+    #autres1 {
         padding-right: 50%;
     }
-    #autres2{
+
+    #autres2 {
         padding-right: 30%;
-    }
-    #autres3{
-        padding-left: 20%;
     }
 }
 
-@media (max-width: 767px){
-    html{
+@media (max-width: 767px) {
+
+    html {
         width: 100%;
     }
-    body{
+
+    body {
         font-family: 'Verdana', sans-serif;
-        margin : 0;
-        padding : 0;
-        background-color :aqua;
+        margin: 0;
+        padding: 0;
+        background-color: aqua;
     }
-    .container-fluid{
+
+    .container {
         width: 100%;
         padding: 0;
         display: block;
         justify-content: center;
         margin: 0;
-        
     }
-    h1,h2,h3,h4,h5{
+
+    h1,h2,h3,h4,h5 {
         text-align: center;
         text-transform: uppercase;
         font-weight: 600; 
     }
-    #photo{
-        /* text-align:center; */
-        order: 1;
-    }
-    #photo img{
+
+    #photo img {
         width: 40%;
         border-radius: 50%;
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
-    section{
+
+    section {
         padding: 5% 0;
         display: flex;
         flex-flow: column;
     }
-    #loisir{
+
+    header {
+        padding: 5% 0;
+    }
+
+    #loisir {
         text-align: center;
     }
-    #foot{
+
+    #foot {
         padding: 5% 5%;
     }
-    #livre{
+
+    #livre {
         padding: 5% 5%;
     }
-    #jeux{
+
+    #jeux {
         padding: 5% 5%;
     }
-    .formationposte{
+
+    .formationposte {
         font-weight: 600;
         font-style: italic;
     }
