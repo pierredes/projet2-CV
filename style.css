@@ -1,8 +1,12 @@
 /* Général */
-@media (min-width:1200px) {
+@media (min-width: 992px) {
 
     body {
         font-family: 'Verdana', sans-serif;
+    }
+
+    p {
+        line-height: 1em;
     }
 
     #global {
@@ -19,6 +23,7 @@
     #partie_gauche {
         background-color: #FFC107;
         width: 30%;
+        padding: 0;
     }
 
     .titre_gauche {
@@ -26,6 +31,17 @@
         background-color: #000;
         color: #FFC107;
         margin-bottom: 5%;
+        padding: 0;
+        width: 100%;
+    }
+
+    .no-padding {
+        padding-left: 0;
+        padding-right: 0; 
+    }
+
+    .padding {
+        padding-left: 10%;
     }
 
     hr {
@@ -67,8 +83,12 @@
 
     /* Section contact */
 
+    #contact p {
+        margin : 0;
+    }
+
     .texte_gras {
-        font-weight: bold; 
+        font-weight: bold;
     }
 
     /* Section à propos */
@@ -86,96 +106,9 @@
         padding: 5% 10% 5% 10%;
     }
 
-    /* Section titre */
-
-    #prenom {
-        color: #FFC107;
-    }
-
-    #souligner {
-        text-decoration: underline #FFC107;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-    body {
-        font-family: 'Verdana', sans-serif;
-    }
-
-    h1,h2,h3,h4,h5 {
-        text-transform: uppercase;
-        font-weight: 600; 
-    }
-
-    #partie_gauche {
-        background-color: #FFC107;
-    }
-
-    .titre_gauche {
-        text-align: center;
-        background-color: #000;
-        color: #FFC107;
-        margin-bottom: 5%;
-    }
-
-    hr {
-        background-color: #FFC107;
-    }
-
-    section {
-        padding: 5% 0;
-    }
-
-    header {
-        padding: 5% 0;
-    }
-
-    .icone_droite {
-        color : #FFC107;
-        padding: 0 5%;
-    }
-
-    .formationposte {
-        font-weight: 600;
-        font-style: italic;
-    }
-
-    .contenu_droite {
-        padding: 5% 5%;
-    }
-
-    /* Section photo */
-
-    #photo {
-        text-align: center;
-    }
-
-    #photo img {
-        width: 40%;
-        border-radius: 50%;
-    }
-
-    /* Section contact */
-
-    .texte_gras {
-        font-weight: bold; 
-    }
-
-    /* Section à propos */
-
-    #apropos {
-        padding-bottom : 200%;
-    }
-
-    /* Section loisirs */
-    
-    #loisir {
-        text-align: center;
-    }
-
-    .icone_loisir {
-        padding: 5% 10% 5% 10%;
+    .icone_loisir::before {
+        border-radius: 16px;
+        border: 1px solid #000;
     }
 
     /* Section titre */
@@ -188,13 +121,17 @@
         text-decoration: underline #FFC107;
     }
 }
+
+
 
 @media (min-width: 768px) and (max-width: 991px) {
 
     body {
         font-family: 'Verdana', sans-serif;
-        margin: 0;
-        padding: 0;
+    }
+
+    p {
+        line-height: 1em;
     }
 
     .container {
@@ -209,7 +146,7 @@
 
     #partie_gauche {
         background-color: #FFC107;
-        margin: 0;
+        padding: 0;
     }
 
     .titre_gauche {
@@ -223,7 +160,20 @@
         background-color: #FFC107;
     }
 
+    .no-padding {
+        padding-left: 0;
+        padding-right: 0; 
+    }
+
+    .padding {
+        padding-left: 10%;
+    }
+
     section {
+        padding: 5% 0;
+    }
+
+    header{
         padding: 5% 0;
     }
 
@@ -254,6 +204,10 @@
 
     /* Section contact */
 
+    #contact p {
+        margin : 0;
+    }
+
     .texte_gras {
         font-weight: bold; 
     }
@@ -283,27 +237,23 @@
     #souligner {
         text-decoration: underline #FFC107;
     }
-
-    #autres1 {
-        padding-right: 50%;
-    }
-
-    #autres2 {
-        padding-right: 30%;
-    }
 }
 
 @media (max-width: 767px) {
 
-    html {
+    /* html {
         width: 100%;
-    }
+    } */
 
     body {
         font-family: 'Verdana', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: aqua;
+        background-color: #FFC107;
+    }
+
+    p {
+        line-height: 1em;
     }
 
     .container {
@@ -336,6 +286,14 @@
 
     header {
         padding: 5% 0;
+    }
+
+    .texte_gras {
+        font-weight: bold; 
+    }
+
+    #contact p {
+        margin : 0;
     }
 
     #loisir {
