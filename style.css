@@ -9,6 +9,22 @@
         line-height: 1em;
     }
 
+    .cercle {
+        width: 5px;
+        height: 5px;
+        border-radius: 2.5px;
+        background: #FFC107;
+        margin-left: 1.5px;
+        margin-top: 1.5px;
+    }
+
+    .cercle_aujourdhui {
+        border: #FFC107 1px solid;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+    }
+
     #global {
         margin-left: auto;
         margin-right: auto;
@@ -77,8 +93,9 @@
     }
 
     #photo img {
-        width: 40%;
-        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border-radius:75px;
     }
 
     /* Section contact */
@@ -98,16 +115,18 @@
     }
 
     /* Section loisirs */
+
     #loisir {
         text-align: center;
     }
 
     .icone_loisir {
-        padding: 5% 10% 5% 10%;
+        padding: 5% 5% 5% 5%;
     }
 
     .icone_loisir::before {
-        border-radius: 16px;
+        padding: 10px;
+        border-radius: 50%;
         border: 1px solid #000;
     }
 
@@ -132,6 +151,22 @@
 
     p {
         line-height: 1em;
+    }
+
+    .cercle {
+        width: 5px;
+        height: 5px;
+        border-radius: 2.5px;
+        background: #FFC107;
+        margin-left: 1.5px;
+        margin-top: 1.5px;
+    }
+
+    .cercle_aujourdhui {
+        border: #FFC107 1px solid;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
     }
 
     .container {
@@ -228,6 +263,12 @@
         padding: 5% 10% 5% 10%;
     }
 
+    .icone_loisir::before {
+        padding: 10px;
+        border-radius: 50%;
+        border: 1px solid #000;
+    }
+
     /* Section titre */
 
     #prenom {
@@ -240,10 +281,6 @@
 }
 
 @media (max-width: 767px) {
-
-    /* html {
-        width: 100%;
-    } */
 
     body {
         font-family: 'Verdana', sans-serif;
@@ -315,5 +352,11 @@
     .formationposte {
         font-weight: 600;
         font-style: italic;
+    }
+
+    .icone_loisir::before {
+        padding: 10px;
+        border-radius: 50%;
+        border: 1px solid #000;
     }
 }
