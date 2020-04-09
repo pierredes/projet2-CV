@@ -10,19 +10,19 @@
     }
 
     .cercle {
-        width: 5px;
-        height: 5px;
-        border-radius: 2.5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
         background: #FFC107;
-        margin-left: 1.5px;
-        margin-top: 1.5px;
     }
 
     .cercle_aujourdhui {
         border: #FFC107 1px solid;
-        width: 10px;
-        height: 10px;
-        border-radius: 5px;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        padding-left: 4px;
+        padding-top: 4px;  
     }
 
     #global {
@@ -120,18 +120,28 @@
 
     /* Section loisirs */
 
-    #loisir {
-        text-align: center;
+    .cerclage_icone {
+        display: inline-block;
+        height: 75px;
+        width: 75px;
+        border-radius: 37.5px;
+        border: 1px solid black;
+        margin-left: 5%;
     }
 
-    .icone_loisir {
-        padding: 5% 5% 5% 5%;
+    #cerclage_foot {
+        padding-left: 20px;
+        padding-top: 20px;
     }
 
-    .icone_loisir::before {
-        padding: 10px;
-        border-radius: 50%;
-        border: 1px solid #000;
+    #cerclage_livre {
+        padding-left: 22.5px;
+        padding-top: 20px;
+    }
+
+    #cerclage_jeux {
+        padding-left: 15px;
+        padding-top: 20px;
     }
 
     /* Section titre */
@@ -237,8 +247,9 @@
     }
 
     #photo img {
-        width: 40%;
-        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border-radius:75px;
     }
 
     /* Section contact */
@@ -263,18 +274,28 @@
 
     /* Section loisirs */
     
-    #loisir {
-        text-align: center;
+    .cerclage_icone {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        border: 1px solid black;
+        margin: 0 5%;
     }
 
-    .icone_loisir {
-        padding: 5% 10% 5% 10%;
+    #cerclage_foot {
+        padding-left: 7.5px;
+        padding-top: 7.5px;
     }
 
-    .icone_loisir::before {
-        padding: 10px;
-        border-radius: 50%;
-        border: 1px solid #000;
+    #cerclage_livre {
+        padding-left: 9px;
+        padding-top: 7.5px;
+    }
+
+    #cerclage_jeux {
+        padding-left: 4.5px;
+        padding-top: 7.5px;
     }
 
     /* Section titre */
@@ -316,8 +337,9 @@
     }
 
     #photo img {
-        width: 40%;
-        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border-radius:75px;
         display: block;
         margin-right: auto;
         margin-left: auto;
@@ -366,9 +388,29 @@
         font-style: italic;
     }
 
-    .icone_loisir::before {
-        padding: 10px;
-        border-radius: 50%;
-        border: 1px solid #000;
+    .cerclage_icone {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        border: 1px solid black;
+        margin: 0 5%;
     }
+
+    #cerclage_foot {
+        padding-left: 3px;
+        padding-top: 6px;
+    }
+
+    #cerclage_livre {
+        padding-left: 1px;
+        padding-top: 5px;
+    }
+
+    #cerclage_jeux {
+        padding-left: 1px;
+        padding-top: 7.5px;
+    }
+
+
 }
