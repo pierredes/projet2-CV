@@ -108,6 +108,10 @@
         font-weight: bold;
     }
 
+    #version_tablette {
+        display: none;
+    }
+
     /* Section à propos */
 
     #apropos {
@@ -247,6 +251,10 @@
         font-weight: bold; 
     }
 
+    #version_ordi_mobile {
+        display: none;
+    }
+
     /* Section à propos */
 
     #apropos {
@@ -331,6 +339,10 @@
 
     #contact p {
         margin : 0;
+    }
+
+    #version_tablette {
+        display: none;
     }
 
     #loisir {
