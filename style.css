@@ -93,9 +93,9 @@
     }
 
     #photo img {
-        width: 150px;
-        height: 150px;
-        border-radius:75px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
     }
 
     /* Section contact */
@@ -168,19 +168,19 @@
     }
 
     .cercle {
-        width: 5px;
-        height: 5px;
-        border-radius: 2.5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
         background: #FFC107;
-        margin-left: 1.5px;
-        margin-top: 1.5px;
     }
 
     .cercle_aujourdhui {
         border: #FFC107 1px solid;
-        width: 10px;
-        height: 10px;
-        border-radius: 5px;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        padding-left: 4px;
+        padding-top: 4px;  
     }
 
     .container {
@@ -315,6 +315,10 @@
         font-family: 'Verdana', sans-serif;
         margin: 0;
         padding: 0;
+        width: 766px;
+    }
+
+    aside {
         background-color: #FFC107;
     }
 
@@ -328,6 +332,8 @@
         display: block;
         justify-content: center;
         margin: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h1,h2,h3,h4,h5 {
@@ -357,6 +363,10 @@
 
     .texte_gras {
         font-weight: bold; 
+    }
+
+    #titre_statut p {
+        text-align: center;
     }
 
     #contact p {
@@ -412,5 +422,12 @@
         padding-top: 7.5px;
     }
 
+    .contenu_droite {
+        padding-bottom: 5%; 
+    }
+
+    #autres1 {
+        padding: 5% 0;
+    }
 
 }
