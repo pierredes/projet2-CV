@@ -9,18 +9,28 @@
         line-height: 1em;
     }
 
+    .container-fluid {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .cercle {
-        width: 10px;
-        height: 10px;
-        border-radius: 5px;
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
         background: #FFC107;
+    }
+
+    .mobile {
+        display: none;
     }
 
     .cercle_aujourdhui {
         border: #FFC107 1px solid;
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
+        width: 18px;
+        height: 18px;
+        border-radius: 9px;
         padding-left: 4px;
         padding-top: 4px;  
     }
@@ -122,26 +132,26 @@
 
     .cerclage_icone {
         display: inline-block;
-        height: 75px;
-        width: 75px;
-        border-radius: 37.5px;
+        height: 65px;
+        width: 65px;
+        border-radius: 32.5px;
         border: 1px solid black;
         margin-left: 5%;
     }
 
     #cerclage_foot {
-        padding-left: 20px;
-        padding-top: 20px;
+        padding-left: 15px;
+        padding-top: 15px;
     }
 
     #cerclage_livre {
-        padding-left: 22.5px;
-        padding-top: 20px;
+        padding-left: 17.5px;
+        padding-top: 15px;
     }
 
     #cerclage_jeux {
-        padding-left: 15px;
-        padding-top: 20px;
+        padding-left: 10px;
+        padding-top: 15px;
     }
 
     /* Section titre */
@@ -168,17 +178,17 @@
     }
 
     .cercle {
-        width: 10px;
-        height: 10px;
-        border-radius: 5px;
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
         background: #FFC107;
     }
 
     .cercle_aujourdhui {
         border: #FFC107 1px solid;
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
+        width: 18px;
+        height: 18px;
+        border-radius: 4px;
         padding-left: 4px;
         padding-top: 4px;  
     }
@@ -228,7 +238,7 @@
 
     .icone_droite {
         color : #FFC107;
-        padding: 0 5%;
+        padding: 0 3%;
     }
 
     .formationposte {
@@ -238,6 +248,15 @@
 
     .contenu_droite {
         padding: 5% 0;
+    }
+
+    .container-fluid {
+        margin: 0;
+        padding: 0;
+    }
+
+    .mobile {
+        display: none;
     }
 
     /* Section photo */
@@ -326,14 +345,9 @@
         line-height: 1em;
     }
 
-    .container {
-        width: 100%;
-        padding: 0;
-        display: block;
-        justify-content: center;
+    .container-fluid {
         margin: 0;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 0;
     }
 
     h1,h2,h3,h4,h5 {
@@ -357,6 +371,10 @@
         flex-flow: column;
     }
 
+    hr {
+        background-color: #FFC107;
+    }
+
     header {
         padding: 5% 0;
     }
@@ -367,6 +385,7 @@
 
     #titre_statut p {
         text-align: center;
+        font-size: 24px;
     }
 
     #contact p {
@@ -428,6 +447,11 @@
 
     #autres1 {
         padding: 5% 0;
+    }
+
+    .icone_droite {
+        color : #FFC107;
+        padding: 0 2%;
     }
 
 }
